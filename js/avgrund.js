@@ -68,6 +68,14 @@ var Avgrund = (function(){
 
 	function show(selector){
 		popup = document.querySelector( selector );
+		relativePosY = window.innerHeight / 2;
+		extraPosY = popup.clientHeight/2;
+		popup.style.marginTop = window.pageYOffset + relativePosY - extraPosY + 'px';
+		popup.style.top = "0px";
+		relativePosX = window.innerWidth / 2;
+		extraPosX = popup.clientWidth/2;
+		popup.style.marginLeft = window.pageXOffset + relativePosX - extraPosX + 'px';
+		popup.style.left = "0px";
 		addClass(popup, 'avgrund-popup-animate');
 		activate();
 		return this;
