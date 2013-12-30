@@ -1,8 +1,8 @@
 # Avgrund
 
-A modal concept which aims to give a sense of depth between the page and modal layers.
+A fork from Avgrund developed by http://Hakim.se with some minor changes. Its basicly a modal concept which aims to give a sense of depth between the page and modal layers.
 
-[Check out the demo page](http://lab.hakim.se/avgrund/).
+[Check out his demo page](http://lab.hakim.se/avgrund/).
 
 ## License
 
